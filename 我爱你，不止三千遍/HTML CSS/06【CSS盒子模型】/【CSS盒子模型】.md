@@ -52,6 +52,7 @@ border: border-width || border-style || border-color
 - `solid`：边框为单实线（最为常用的）
 - `dashed`：边框为虚线
 - `dotted`：边框为点线
+- `其他值`：还有很多其他值，因为不是所有浏览器都能识别，所以不再列举。遇到此类情况的时候，直接将其作为图片进行处理。
 
 **边框简写：**
 
