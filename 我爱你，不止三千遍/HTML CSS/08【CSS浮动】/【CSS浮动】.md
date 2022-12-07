@@ -1176,6 +1176,9 @@ CSS 提供了三种传统布局方式（简单说就是盒子如何进行排列�
 
 ```css
 .clearfix:before,
+    /* .clearfix:before作用：解决外边距塌陷问题
+    外边距塌陷：父子标签，都是块级，子级加margin会影响父级的边界
+    */
 .clearfix:after {
 	content: "";
 	display: table;
