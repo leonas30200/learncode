@@ -1087,9 +1087,9 @@ CSS 提供了三种传统布局方式（简单说就是盒子如何进行排列�
 .clearfix:after {
 	content: "";
 	display: block;
-	height: 0;
 	clear: both;
-	visibility: hidden;
+	height: 0;         /* 为了兼容性，IE6、7 专有 */
+	visibility: hidden;         /* 为了兼容性，IE6、7 专有 */
 }
 
 .clearfix { 
