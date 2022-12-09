@@ -91,33 +91,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>相对定位</title>
+    <title>绝对定位-无父亲或者父亲无定位</title>
     <style>
-        .box1 {
-            position: relative;
-            top: 100px;
-            left: 100px;
+        .father {
+            width: 500px;
+            height: 500px;
+            background-color: skyblue;
+        }
+
+        .son {
+            position: absolute;
+            /* top: 10px;
+            left: 10px; */
+            /* top: 100px;
+            right: 200px; */
+            left: 0;
+            bottom: 0;
             width: 200px;
             height: 200px;
             background-color: pink;
         }
-
-        .box2 {
-            width: 200px;
-            height: 200px;
-            background-color: deeppink;
+        .son2 {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(32, 160, 38);
         }
     </style>
 </head>
 
 <body>
-    <div class="box1">
-
+    <div class="father">
+        <div class="son"></div>
+        <div class="son2"></div>
     </div>
-    <div class="box2">
-
-    </div>
-
 </body>
 
 </html>
