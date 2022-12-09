@@ -177,12 +177,18 @@
             height: 200px;
             background-color: pink;
         }
+        .son2 {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(32, 160, 38);
+        }
     </style>
 </head>
 
 <body>
     <div class="father">
         <div class="son"></div>
+        <div class="son2"></div>
     </div>
 </body>
 
