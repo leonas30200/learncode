@@ -91,39 +91,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>绝对定位-无父亲或者父亲无定位</title>
+    <title>相对定位</title>
     <style>
-        .father {
-            width: 500px;
-            height: 500px;
-            background-color: skyblue;
-        }
-
-        .son {
-            position: absolute;
-            /* top: 10px;
-            left: 10px; */
-            /* top: 100px;
-            right: 200px; */
-            left: 0;
-            bottom: 0;
+        .box1 {
+            position: relative;
+            top: 100px;
+            left: 100px;
             width: 200px;
             height: 200px;
             background-color: pink;
         }
-        .son2 {
-            width: 100px;
-            height: 100px;
-            background-color: rgb(32, 160, 38);
+
+        .box2 {
+            width: 200px;
+            height: 200px;
+            background-color: deeppink;
         }
     </style>
 </head>
 
 <body>
-    <div class="father">
-        <div class="son"></div>
-        <div class="son2"></div>
+    <div class="box1">
+
     </div>
+    <div class="box2">
+
+    </div>
+
 </body>
 
 </html>
@@ -177,25 +171,19 @@
             height: 200px;
             background-color: pink;
         }
-        .son2 {
-            width: 100px;
-            height: 100px;
-            background-color: rgb(32, 160, 38);
-        }
     </style>
 </head>
 
 <body>
     <div class="father">
         <div class="son"></div>
-        <div class="son2"></div>
     </div>
 </body>
 
 </html>
 ```
 
-<img src="mark-img/20210410225323359.png" style="zoom:50%;" />
+<img src="mark-img/20210410225323359.gif" style="zoom:50%;" />
 
 ---
 
